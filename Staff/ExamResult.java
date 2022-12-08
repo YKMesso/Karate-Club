@@ -1,6 +1,6 @@
 package staff;
 
-public class Grade {
+public class ExamResult {
     private String name;
     public String beltAttempted;
     public Boolean pass;
