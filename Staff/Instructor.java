@@ -1,6 +1,7 @@
-package staff;
+package Staff;
 
-public class instructor {
+public class instructor
+        extends MemberStaff {
     private String name;
     public Boolean publishGrade;
 
