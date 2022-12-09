@@ -1,8 +1,7 @@
 package Staff;
 
-public class Trainer
-        extends MemberStaff {
-    private class Class;
+public class Trainer extends MemberStaff {
+    private Class classAssign;
 
         @Override
         public String toString() {

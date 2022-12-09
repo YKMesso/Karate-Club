@@ -1,7 +1,5 @@
 package Staff;
 
-import Staff.Instructor;
-
 public class ExamResult {
     private String name;
     public String beltAttempted;
