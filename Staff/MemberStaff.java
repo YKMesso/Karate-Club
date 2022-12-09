@@ -1,4 +1,4 @@
-package staff;
+package Staff;
 
 abstract class MemberStaff {
     protected int memberId;

@@ -1,4 +1,4 @@
-package staff;
+package Staff;
 
 public class ExamResult {
     private String name;
@@ -12,6 +12,8 @@ public class ExamResult {
     public void setName(java.lang.String name) {
         this.name = name;
     }
+
+    public Instructor instructor;
 
     @java.lang.Override
     public java.lang.String toString() {
