@@ -1,14 +1,10 @@
 package Store;
 
-import Store.SalesRecord;
+    public class Customer extends SalesRecord {
 
-public SalesRecord sRecord;
+        @Override
+        public String toString() {
+            return ("");
+        }
 
-public class Customer {
-    
-    @Override
-    public String toString() {
-        return super.toString( SalesRecord.date );
     }
-
-}
