@@ -1,17 +1,21 @@
 package Member;
 
 class Student {
-    protected String name;
-    protected int age;
+    public String name;
+    public int age;
     public Belt_TYPE belt = Belt_TYPE.WHITE_TYPE;
     private Boolean payment = false;
     private String paymentType;
 
+    //Constructor
     Student(String name, int age, Belt_TYPE belt) {
         this.name = name;
         this.age = age;
         this.belt = Belt_TYPE.WHITE_TYPE;
     }
+
+    //property
+    // public Course course;
 
     public Boolean getPayment() {
         return payment;
